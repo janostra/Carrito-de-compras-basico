@@ -1,73 +1,116 @@
-function Product (name, price){
-    this.nombre = name;
-    this.precio = price;
-    this.addToCart = function() {
-        alert(`Producto agregado al carrito: ${this.nombre}, Precio: ${this.precio}`);
-        console.log(`Producto agregado al carrito: ${this.nombre}, Precio: ${this.precio}`);
-        console.log("La cantidad de productos en el carrito es de " + i);
-    };
-}
-
-function obtenerProductosPorPrecio(products, precioMinimo) {
-    return products.filter(function(producto) {
-        return producto.precio > precioMinimo;
-    });
-}
-
-var total = 0;
-
-function totalprice (price, total){
-    total += price
-    return total
-}
-
-var i = 0
-
-var array = [];
-
-let answer =  prompt ("¿Desea cargar algun producto al carrito? si/no");
-
-while (answer != "no") {
-    if (answer == "si") {
-        let name = prompt ("Ingrese el nombre del producto");
-        var price = parseInt(prompt ("Ingrese el precio del producto"));
-        if ((typeof name === 'string') && !isNaN(price)){
-            let producto = new Product (name, price);
-            array.push(producto);
-            console.log(array)
-            i++;
-            producto.addToCart();
-            total = totalprice (price, total);
-            alert ("El carrito suma un total de " + total);
-            answer = prompt ("¿Desea cargar otro producto al carrito? si/no");
-        } else if ((typeof name !== "string") || isNaN(Number(price))) {
-            alert("Uno o ambos de los datos ingresados no son del tipo correcto. Por favor inténtalo de nuevo.");
+document.addEventListener('DOMContentLoaded', function() {
+    //Aquí estamos declarando algunas variables y obteniendo elementos del DOM por sus IDs. 
+    //Esto nos permitirá interactuar con ellos más adelante en el código.
+        const formProducto = document.getElementById('formProducto');
+        const agregarFavorito = document.getElementById('agregarFavorito');
+        const listaCarrito = document.getElementById('lista-carrito');
+        const listaFavoritos = document.getElementById('lista-favoritos');
+        const total = document.getElementById('total');
+        const comprarBtn = document.getElementById('comprar');
+        let carrito = JSON.parse(sessionStorage.getItem('carrito')) || [];
+        let favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
+    
+        formProducto.addEventListener('submit', function(e) {
+            e.preventDefault();
+    
+            const nombre = document.getElementById('nombre').value;
+            const precio = parseFloat(document.getElementById('precio').value);
+    
+            if (nombre && !isNaN(precio)) {
+                const nuevoProducto = {
+                    nombre: nombre,
+                    precio: precio
+                };
+    
+                carrito.push(nuevoProducto);
+    
+                actualizarCarrito();
+            }
+        });
+    
+        agregarFavorito.addEventListener('click', function() {
+            const nombre = document.getElementById('nombre').value;
+            const precio = parseFloat(document.getElementById('precio').value);
+    
+            if (nombre && !isNaN(precio)) {
+                const nuevoProducto = {
+                    nombre: nombre,
+                    precio: precio
+                };
+    
+                favoritos.push(nuevoProducto);
+    
+                actualizarFavoritos();
+            }
+        });
+    
+        function actualizarCarrito() {
+            listaCarrito.innerHTML = '';
+            let totalCarrito = 0;
+    
+            carrito.forEach((producto, index) => {
+                const li = document.createElement('li');
+                li.textContent = `${producto.nombre} - $${producto.precio}`;
+    
+                const quitarBtn = document.createElement('button');
+                quitarBtn.textContent = 'Quitar de Carrito';
+                quitarBtn.classList.add('quitar');
+                quitarBtn.addEventListener('click', function() {
+                    carrito.splice(index, 1);
+                    actualizarCarrito();
+                    sessionStorage.setItem('carrito', JSON.stringify(carrito));
+                });
+    
+                li.appendChild(quitarBtn);
+                listaCarrito.appendChild(li);
+                totalCarrito += producto.precio;
+            });
+    
+            total.textContent = totalCarrito;
+            sessionStorage.setItem('carrito', JSON.stringify(carrito)); // Se actualiza aquí
         }
-    } else if (answer == null) {
-        alert ("Ingrese una opcion");
-        answer = prompt ("¿Desea cargar un producto al carrito? si/no");
-    } else {
-        alert ("La respuesta introducida no es correcta");
-        answer = prompt ("¿Desea cargar un producto al carrito? si/no");
-    }
-}
-
-ans = prompt("¿Desea quitar de su carrito productos con un precio minimo?")
-if (ans == "si") {
-    precioMinimo = prompt("Ingrese un valor minimo para quitar los productos dentro de su carrito con precio inferior a ese valor")
-    newcarrito = obtenerProductosPorPrecio(array, precioMinimo);
-    console.log (newcarrito);
-    var x = newcarrito.length;
-    alert("La cantidad de productos en el carrito es de " + x);
-} else if (ans = "no") {
-    alert ("Usted no modificó su carrito");
-    alert("La cantidad de productos en el carrito es de " + i);
-} else {
-    alert ("Respuesta incorrecta");
-}
-
-
-
-
-
-alert ("Gracias por su visita!");
+    
+        function actualizarFavoritos() {
+            listaFavoritos.innerHTML = '';
+    
+            favoritos.forEach((producto, index) => {
+                const li = document.createElement('li');
+                li.textContent = `${producto.nombre} - $${producto.precio}`;
+    
+                const quitarFavoritoBtn = document.createElement('button');
+                quitarFavoritoBtn.textContent = 'Quitar de Favoritos';
+                quitarFavoritoBtn.classList.add('quitar');
+                quitarFavoritoBtn.addEventListener('click', function() {
+                    favoritos.splice(index, 1);
+                    actualizarFavoritos();
+                    localStorage.setItem('favoritos', JSON.stringify(favoritos));
+                });
+    
+                const agregarCarritoBtn = document.createElement('button');
+                agregarCarritoBtn.textContent = 'Añadir al Carrito';
+                agregarCarritoBtn.addEventListener('click', function() {
+                    carrito.push(producto);
+                    actualizarCarrito();
+                    favoritos = favoritos.filter(item => item !== producto);
+                    actualizarFavoritos();
+                    localStorage.setItem('favoritos', JSON.stringify(favoritos));
+                    sessionStorage.setItem('carrito', JSON.stringify(carrito));
+                });
+    
+                li.appendChild(quitarFavoritoBtn);
+                li.appendChild(agregarCarritoBtn);
+                listaFavoritos.appendChild(li);
+            });
+    
+            localStorage.setItem('favoritos', JSON.stringify(favoritos)); // Se actualiza aquí
+        }
+    
+        comprarBtn.addEventListener('click', function() {
+            // No hace nada por ahora, puedes agregar la lógica de compra aquí.
+            // Puedes mostrar un mensaje de confirmación o redirigir a una página de compra.
+        });
+    
+        actualizarCarrito();
+        actualizarFavoritos();
+    });
+    

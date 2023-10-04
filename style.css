@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.productos, .carrito, .favoritos {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 30%;
+}
+
+.formulario label, .formulario input {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+}
+
+#formProducto {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-top: 10px;
+    width: auto;
+}
+.carrito, .favoritos {
+    position: relative;
+}
+
+.carrito h2, .favoritos h2 {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button.quitar {
+    background-color: #f44336;
+}
+
+button.quitar:hover {
+    background-color: #d32f2f;
+}
+
+#lista-favoritos button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+#lista-favoritos button.quitar {
+    background-color: #f44336;
+}
+
+#lista-favoritos button:hover {
+    background-color: #45a049;
+}
