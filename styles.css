@@ -40,12 +40,16 @@
 
 .btnfavorito {
     background-color: yellow;
-    margin: 5px
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
 }
 
 .btncarrito {
     background-color: green;
-    margin: 5px
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
 }
 
 .producto:hover {
@@ -115,4 +119,18 @@
 
 .pie-de-pagina h4 {
     padding: 10px;
+}
+
+.btn {
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.quitar {
+    background-color: red;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
 }

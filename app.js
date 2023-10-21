@@ -90,6 +90,8 @@ document.addEventListener('DOMContentLoaded', async function() {
 
         Swal.fire({
             icon: 'success',
+            background: 'red',
+            color: 'white',
             title: '¡Añadido al carrito!',
             text: `${producto.nombre} se ha añadido al carrito.`,
         });

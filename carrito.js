@@ -71,6 +71,8 @@ document.addEventListener('DOMContentLoaded', function() {
     comprar.addEventListener('click', function() {
         Swal.fire({
             icon: 'info',
+            background: 'red',
+            color: 'white',
             title: '¡Compra realizada!',
             text: '¡Gracias por tu compra!',
             confirmButtonText: 'Aceptar'

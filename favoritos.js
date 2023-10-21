@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             const agregarCarritoBtn = document.createElement('button');
             agregarCarritoBtn.textContent = 'Agregar al Carrito';
+            agregarCarritoBtn.classList.add('btncarrito');
             agregarCarritoBtn.addEventListener('click', function() {
                 agregarAlCarrito({
                     nombre: producto.nombre,
@@ -72,9 +73,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     
         sessionStorage.setItem('carrito', JSON.stringify(carrito));
-        
+
         Swal.fire({
             icon: 'success',
+            background: 'red',
+            color: 'white',
             title: '¡Añadido al carrito!',
             text: `${producto.nombre} se ha añadido al carrito.`,
         });
