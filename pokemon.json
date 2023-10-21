@@ -1,0 +1,903 @@
+[
+    {
+      "id": 1,
+      "nombre": "Bulbasaur",
+      "imagen": "bulbasaur.png",
+      "descripcion": "Bulbasaur es un Pokémon de tipo planta/veneno. Tiene una semilla en su lomo que crece a medida que evoluciona."
+    },
+    {
+      "id": 2,
+      "nombre": "Ivysaur",
+      "imagen": "ivysaur.png",
+      "descripcion": "Ivysaur es la evolución de Bulbasaur. Es más grande y fuerte, y tiene flores más grandes en su lomo."
+    },
+    {
+      "id": 3,
+      "nombre": "Venusaur",
+      "imagen": "venusaur.png",
+      "descripcion": "Venusaur es la forma final de Bulbasaur. Es un Pokémon grande y poderoso con una flor enorme en su lomo."
+    },
+    {
+      "id": 4,
+      "nombre": "Charmander",
+      "imagen": "charmander.png",
+      "descripcion": "Charmander es un Pokémon de tipo fuego. Tiene una llama en su cola que se enciende cuando está emocionado."
+    },
+    {
+      "id": 5,
+      "nombre": "Charmeleon",
+      "imagen": "charmeleon.png",
+      "descripcion": "Charmeleon es la evolución de Charmander. Es un Pokémon fiero y poderoso con una llama ardiente en su cola."
+    },
+    {
+      "id": 6,
+      "nombre": "Charizard",
+      "imagen": "charizard.png",
+      "descripcion": "Charizard es la forma final de Charmander. Es un imponente dragón de fuego capaz de lanzar llamas ardientes."
+    },
+    {
+      "id": 7,
+      "nombre": "Squirtle",
+      "imagen": "squirtle.png",
+      "descripcion": "Squirtle es un Pokémon de tipo agua. Tiene una concha en su espalda que lo protege cuando se siente amenazado."
+    },
+    {
+      "id": 8,
+      "nombre": "Wartortle",
+      "imagen": "wartortle.png",
+      "descripcion": "Wartortle es la evolución de Squirtle. Es un experto nadador y puede lanzar chorros de agua con gran precisión."
+    },
+    {
+      "id": 9,
+      "nombre": "Blastoise",
+      "imagen": "blastoise.png",
+      "descripcion": "Blastoise es la forma final de Squirtle. Tiene potentes cañones de agua en su espalda que puede utilizar en batalla."
+    },
+    {
+      "id": 10,
+      "nombre": "Caterpie",
+      "imagen": "caterpie.png",
+      "descripcion": "Caterpie es un Pokémon de tipo bicho. Es pequeño y verde, y se alimenta de hojas."
+    },
+    {
+      "id": 11,
+      "nombre": "Metapod",
+      "imagen": "metapod.png",
+      "descripcion": "Metapod es la evolución de Caterpie. Tiene una dura cáscara que lo protege mientras se transforma en Butterfree."
+    },
+    {
+      "id": 12,
+      "nombre": "Butterfree",
+      "imagen": "butterfree.png",
+      "descripcion": "Butterfree es la forma final de Caterpie. Tiene hermosas alas y es conocido por sus habilidades en vuelo."
+    },
+    {
+      "id": 13,
+      "nombre": "Weedle",
+      "imagen": "weedle.png",
+      "descripcion": "Weedle es un Pokémon de tipo bicho/veneno. Tiene un aguijón venenoso en su cabeza."
+    },
+    {
+      "id": 14,
+      "nombre": "Kakuna",
+      "imagen": "kakuna.png",
+      "descripcion": "Kakuna es la evolución de Weedle. Se endurece como una roca mientras se prepara para transformarse en Beedrill."
+    },
+    {
+      "id": 15,
+      "nombre": "Beedrill",
+      "imagen": "beedrill.png",
+      "descripcion": "Beedrill es la forma final de Weedle. Tiene aguijones venenosos en sus brazos y puede volar a gran velocidad."
+    },
+    {
+      "id": 16,
+      "nombre": "Pidgey",
+      "imagen": "pidgey.png",
+      "descripcion": "Pidgey es un Pokémon de tipo normal/volador. Es pequeño y común, pero tiene grandes habilidades en vuelo."
+    },
+    {
+      "id": 17,
+      "nombre": "Pidgeotto",
+      "imagen": "pidgeotto.png",
+      "descripcion": "Pidgeotto es la evolución de Pidgey. Es más grande y fuerte, y puede volar a altas velocidades."
+    },
+    {
+      "id": 18,
+      "nombre": "Pidgeot",
+      "imagen": "pidgeot.png",
+      "descripcion": "Pidgeot es la forma final de Pidgey. Tiene enormes alas que le permiten volar a velocidades increíbles."
+    },
+    {
+      "id": 19,
+      "nombre": "Rattata",
+      "imagen": "rattata.png",
+      "descripcion": "Rattata es un Pokémon de tipo normal. Es pequeño y roedor, y se reproduce rápidamente."
+    },
+    {
+      "id": 20,
+      "nombre": "Raticate",
+      "imagen": "raticate.png",
+      "descripcion": "Raticate es la evolución de Rattata. Es un roedor grande y ágil, conocido por su rapidez en combate."
+    },
+    {
+      "id": 21,
+      "nombre": "Spearow",
+      "imagen": "spearow.png",
+      "descripcion": "Spearow es un Pokémon de tipo normal/volador. Es agresivo y ataca con ferocidad a sus presas."
+    },
+    {
+      "id": 22,
+      "nombre": "Fearow",
+      "imagen": "fearow.png",
+      "descripcion": "Fearow es la evolución de Spearow. Tiene un pico afilado y puede volar a alturas impresionantes."
+    },
+    {
+      "id": 23,
+      "nombre": "Ekans",
+      "imagen": "ekans.png",
+      "descripcion": "Ekans es un Pokémon de tipo veneno. Es conocido por su habilidad para envolver a sus presas con su cuerpo."
+    },
+    {
+      "id": 24,
+      "nombre": "Arbok",
+      "imagen": "arbok.png",
+      "descripcion": "Arbok es la evolución de Ekans. Tiene una capucha en forma de cobra y puede expulsar veneno con precisión."
+    },
+    {
+      "id": 25,
+      "nombre": "Pikachu",
+      "imagen": "pikachu.png",
+      "descripcion": "Pikachu es un Pokémon de tipo eléctrico. Tiene mejillas rojas y orejas puntiagudas. Es conocido por su carisma y chispas eléctricas."
+    },
+    {
+      "id": 26,
+      "nombre": "Raichu",
+      "imagen": "raichu.png",
+      "descripcion": "Raichu es la evolución de Pikachu. Tiene un cuerpo más grande y cola en forma de rayo. Es aún más poderoso en términos de electricidad."
+    },
+    {
+      "id": 27,
+      "nombre": "Sandshrew",
+      "imagen": "sandshrew.png",
+      "descripcion": "Sandshrew es un Pokémon de tipo tierra. Tiene una piel dura y es capaz de rodar en una bola para protegerse."
+    },
+    {
+      "id": 28,
+      "nombre": "Sandslash",
+      "imagen": "sandslash.png",
+      "descripcion": "Sandslash es la evolución de Sandshrew. Tiene púas afiladas en su espalda y es un experto en combate cuerpo a cuerpo."
+    },
+    {
+      "id": 29,
+      "nombre": "Nidoran♀",
+      "imagen": "nidoran_f.png",
+      "descripcion": "Nidoran♀ es un Pokémon de tipo veneno. Es pequeño y tiene un cuerno venenoso en su cabeza."
+    },
+    {
+      "id": 30,
+      "nombre": "Nidorina",
+      "imagen": "nidorina.png",
+      "descripcion": "Nidorina es la evolución de Nidoran♀. Es más grande y fuerte, y tiene una piel dura que la protege."
+    },
+    {
+      "id": 31,
+      "nombre": "Nidoqueen",
+      "imagen": "nidoqueen.png",
+      "descripcion": "Nidoqueen es la forma final de Nidoran♀. Es un Pokémon imponente con cuernos venenosos y una piel resistente."
+    },
+    {
+      "id": 32,
+      "nombre": "Nidoran♂",
+      "imagen": "nidoran_m.png",
+      "descripcion": "Nidoran♂ es un Pokémon de tipo veneno. Es similar a Nidoran♀, pero tiene una forma ligeramente diferente."
+    },
+    {
+      "id": 33,
+      "nombre": "Nidorino",
+      "imagen": "nidorino.png",
+      "descripcion": "Nidorino es la evolución de Nidoran♂. Es más grande y fuerte, y tiene un cuerno venenoso más desarrollado."
+    },
+    {
+      "id": 34,
+      "nombre": "Nidoking",
+      "imagen": "nidoking.png",
+      "descripcion": "Nidoking es la forma final de Nidoran♂. Es un Pokémon poderoso con cuernos y cola venenosos."
+    },
+    {
+      "id": 35,
+      "nombre": "Clefairy",
+      "imagen": "clefairy.png",
+      "descripcion": "Clefairy es un Pokémon de tipo hada. Tiene orejas grandes y es conocido por su ternura y habilidades mágicas."
+    },
+    {
+      "id": 36,
+      "nombre": "Clefable",
+      "imagen": "clefable.png",
+      "descripcion": "Clefable es la evolución de Clefairy. Es más grande y tiene una piel suave como la seda."
+    },
+    {
+      "id": 37,
+      "nombre": "Vulpix",
+      "imagen": "vulpix.png",
+      "descripcion": "Vulpix es un Pokémon de tipo fuego. Tiene seis colas y es conocido por su elegante belleza."
+    },
+    {
+      "id": 38,
+      "nombre": "Ninetales",
+      "imagen": "ninetales.png",
+      "descripcion": "Ninetales es la evolución de Vulpix. Tiene nueve colas y es capaz de lanzar llamas con gran precisión."
+    },
+    {
+      "id": 39,
+      "nombre": "Jigglypuff",
+      "imagen": "jigglypuff.png",
+      "descripcion": "Tiene grandes ojos y es conocido por cantar una canción que induce el sueño."
+    },
+    {
+      "id": 40,
+      "nombre": "Wigglytuff",
+      "imagen": "wigglytuff.png",
+      "descripcion": "Wigglytuff es la evolución de Jigglypuff. Tiene una voz poderosa y puede hacer temblar la tierra con su canto."
+    },
+    {
+      "id": 41,
+      "nombre": "Zubat",
+      "imagen": "zubat.png",
+      "descripcion": "Zubat es un Pokémon de tipo veneno/volador. Es conocido por colarse en cuevas oscuras y atacar desde las sombras."
+    },
+    {
+      "id": 42,
+      "nombre": "Golbat",
+      "imagen": "golbat.png",
+      "descripcion": "Golbat es la evolución de Zubat. Tiene una envergadura impresionante y es conocido por su velocidad en vuelo."
+    },
+    {
+      "id": 43,
+      "nombre": "Oddish",
+      "imagen": "oddish.png",
+      "descripcion": "Oddish es un Pokémon de tipo planta/veneno. Tiene un olor peculiar que puede adormecer a quienes lo inhalan."
+    },
+    {
+      "id": 44,
+      "nombre": "Gloom",
+      "imagen": "gloom.png",
+      "descripcion": "Gloom es la evolución de Oddish. Tiene una flor en su cabeza que emite un olor apestoso."
+    },
+    {
+      "id": 45,
+      "nombre": "Vileplume",
+      "imagen": "vileplume.png",
+      "descripcion": "Vileplume es la forma final de Oddish. Tiene una flor gigante en su cabeza que emite un aroma embriagador."
+    },
+    {
+      "id": 46,
+      "nombre": "Paras",
+      "imagen": "paras.png",
+      "descripcion": "Paras es un Pokémon de tipo bicho/planta. Tiene setas en su espalda que pueden ser cosechadas para usos medicinales."
+    },
+    {
+      "id": 47,
+      "nombre": "Parasect",
+      "imagen": "parasect.png",
+      "descripcion": "Parasect es la evolución de Paras. Las setas en su espalda crecen más grandes y lo controlan por completo."
+    },
+    {
+      "id": 48,
+      "nombre": "Venonat",
+      "imagen": "venonat.png",
+      "descripcion": "Venonat es un Pokémon de tipo bicho/veneno. Tiene grandes ojos rojos y antenas sensibles."
+    },
+    {
+      "id": 49,
+      "nombre": "Venomoth",
+      "imagen": "venomoth.png",
+      "descripcion": "Venomoth es la evolución de Venonat. Tiene alas poderosas que le permiten volar con gracia."
+    },
+    {
+      "id": 50,
+      "nombre": "Diglett",
+      "imagen": "diglett.png",
+      "descripcion": "Diglett es un Pokémon de tipo tierra. Tiene un cuerpo pequeño que se asemeja a una zanahoria."
+    },
+    {
+      "id": 51,
+      "nombre": "Dugtrio",
+      "imagen": "dugtrio.png",
+      "descripcion": "Dugtrio es la evolución de Diglett. Son tres Digletts que comparten un mismo cuerpo bajo tierra."
+    },
+    {
+      "id": 52,
+      "nombre": "Meowth",
+      "imagen": "meowth.png",
+      "descripcion": "Meowth es un Pokémon de tipo normal. Tiene una habilidad especial para hablar el idioma humano."
+    },
+    {
+      "id": 53,
+      "nombre": "Persian",
+      "imagen": "persian.png",
+      "descripcion": "Persian es la evolución de Meowth. Es un felino elegante y ágil conocido por su velocidad en combate."
+    },
+    {
+      "id": 54,
+      "nombre": "Psyduck",
+      "imagen": "psyduck.png",
+      "descripcion": "Psyduck es un Pokémon de tipo agua. Tiene fuertes dolores de cabeza que pueden desencadenar un poderoso ataque de agua."
+    },
+    {
+      "id": 55,
+      "nombre": "Golduck",
+      "imagen": "golduck.png",
+      "descripcion": "Golduck es la evolución de Psyduck. Es un nadador experto y puede bucear en aguas profundas sin problemas."
+    },
+    {
+      "id": 56,
+      "nombre": "Mankey",
+      "imagen": "mankey.png",
+      "descripcion": "Mankey es un Pokémon de tipo lucha. Es conocido por su temperamento explosivo y su habilidad para luchar ferozmente."
+    },
+    {
+      "id": 57,
+      "nombre": "Primeape",
+      "imagen": "primeape.png",
+      "descripcion": "Primeape es la evolución de Mankey. Es un combatiente feroz y despiadado que no se detiene ante nada."
+    },
+    {
+      "id": 58,
+      "nombre": "Growlithe",
+      "imagen": "growlithe.png",
+      "descripcion": "Growlithe es un Pokémon de tipo fuego. Es un compañero leal y protector conocido por su valentía."
+    },
+    {
+      "id": 59,
+      "nombre": "Arcanine",
+      "imagen": "arcanine.png",
+      "descripcion": "Arcanine es la evolución de Growlithe. Es un Pokémon majestuoso con una velocidad y potencia incomparables."
+    },
+    {
+      "id": 60,
+      "nombre": "Poliwag",
+      "imagen": "poliwag.png",
+      "descripcion": "Poliwag es un Pokémon de tipo agua. Tiene una esfera roja en su vientre que crece a medida que evoluciona."
+    },
+    {
+      "id": 61,
+      "nombre": "Poliwhirl",
+      "imagen": "poliwhirl.png",
+      "descripcion": "Poliwhirl es la evolución de Poliwag. Tiene una piel suave y es un nadador experto."
+    },
+    {
+      "id": 62,
+      "nombre": "Poliwrath",
+      "imagen": "poliwrath.png",
+      "descripcion": "Poliwrath es una de las formas finales de Poliwag. Es un experto en artes marciales y puede luchar con gran destreza."
+    },
+    {
+      "id": 63,
+      "nombre": "Abra",
+      "imagen": "abra.png",
+      "descripcion": "Abra es un Pokémon de tipo psíquico. Tiene grandes poderes psíquicos, pero es frágil en combate físico."
+    },
+    {
+      "id": 64,
+      "nombre": "Kadabra",
+      "imagen": "kadabra.png",
+      "descripcion": "Kadabra es la evolución de Abra. Tiene poderes psíquicos aún más fuertes y es conocido por su habilidad en la telequinesis."
+    },
+    {
+      "id": 65,
+      "nombre": "Alakazam",
+      "imagen": "alakazam.png",
+      "descripcion": "Alakazam es la forma final de Abra. Es uno de los Pokémon psíquicos más poderosos, con una inteligencia excepcional."
+    },
+    {
+      "id": 66,
+      "nombre": "Machop",
+      "imagen": "machop.png",
+      "descripcion": "Machop es un Pokémon de tipo lucha. Tiene una gran fuerza física y es conocido por su determinación en el entrenamiento."
+    },
+    {
+      "id": 67,
+      "nombre": "Machoke",
+      "imagen": "machoke.png",
+      "descripcion": "Machoke es la evolución de Machop. Es aún más fuerte y musculoso, y puede levantar objetos pesados sin esfuerzo."
+    },
+    {
+      "id": 68,
+      "nombre": "Machamp",
+      "imagen": "machamp.png",
+      "descripcion": "Machamp es la forma final de Machop. Tiene cuatro brazos musculosos y es conocido por su habilidad en el combate cuerpo a cuerpo."
+    },
+    {
+      "id": 69,
+      "nombre": "Bellsprout",
+      "imagen": "bellsprout.png",
+      "descripcion": "Bellsprout es un Pokémon de tipo planta/veneno. Tiene una forma peculiar que le permite atrapar presas fácilmente."
+    },
+    {
+      "id": 70,
+      "nombre": "Weepinbell",
+      "imagen": "weepinbell.png",
+      "descripcion": "Weepinbell es la evolución de Bellsprout. Tiene una boca grande y afilada que puede atrapar presas con facilidad."
+    },
+    {
+      "id": 71,
+      "nombre": "Victreebel",
+      "imagen": "victreebel.png",
+      "descripcion": "Victreebel es una de las formas finales de Bellsprout. Tiene una trampa mortal en forma de hoja."
+    },
+    {
+      "id": 72,
+      "nombre": "Tentacool",
+      "imagen": "tentacool.png",
+      "descripcion": "Tentacool es un Pokémon de tipo agua/veneno. Tiene tentáculos venenosos que utiliza para atrapar presas."
+    },
+    {
+      "id": 73,
+      "nombre": "Tentacruel",
+      "imagen": "tentacruel.png",
+      "descripcion": "Tentacruel es la evolución de Tentacool. Tiene tentáculos aún más largos y puede moverse con gran agilidad en el agua."
+    },
+    {
+      "id": 74,
+      "nombre": "Geodude",
+      "imagen": "geodude.png",
+      "descripcion": "Geodude es un Pokémon de tipo roca/tierra. Tiene un cuerpo rocoso y puede resistir grandes impactos."
+    },
+    {
+      "id": 75,
+      "nombre": "Graveler",
+      "imagen": "graveler.png",
+      "descripcion": "Graveler es la evolución de Geodude. Es aún más resistente y puede rodar a gran velocidad para embestir a sus enemigos."
+    },
+    {
+      "id": 76,
+      "nombre": "Golem",
+      "imagen": "golem.png",
+      "descripcion": "Golem es la forma final de Geodude. Es uno de los Pokémon más resistentes y puede causar terremotos al caminar."
+    },
+    {
+      "id": 77,
+      "nombre": "Ponyta",
+      "imagen": "ponyta.png",
+      "descripcion": "Ponyta es un Pokémon de tipo fuego. Tiene una melena de fuego y es conocido por su velocidad en carrera."
+    },
+    {
+      "id": 78,
+      "nombre": "Rapidash",
+      "imagen": "rapidash.png",
+      "descripcion": "Rapidash es la evolución de Ponyta. Es aún más veloz y puede dejar un rastro de llamas al correr."
+    },
+    {
+      "id": 79,
+      "nombre": "Slowpoke",
+      "imagen": "slowpoke.png",
+      "descripcion": "Slowpoke es un Pokémon de tipo agua. Es lento y tranquilo, pero puede tener momentos de gran lucidez."
+    },
+    {
+      "id": 80,
+      "nombre": "Slowbro",
+      "imagen": "slowbro.png",
+      "descripcion": "Slowbro es la evolución de Slowpoke. Tiene una concha que lo protege y puede disparar rayos de agua a alta velocidad."
+    },
+    {
+      "id": 81,
+      "nombre": "Magnemite",
+      "imagen": "magnemite.png",
+      "descripcion": "Magnemite es un Pokémon de tipo eléctrico/acero. Tiene imanes en su cuerpo que le permiten flotar en el aire."
+    },
+    {
+      "id": 82,
+      "nombre": "Magneton",
+      "imagen": "magneton.png",
+      "descripcion": "Magneton es la evolución de Magnemite. Está compuesto por tres Magnemites unidos por fuerzas magnéticas."
+    },
+    {
+      "id": 83,
+      "nombre": "Farfetch'd",
+      "imagen": "farfetchd.png",
+      "descripcion": "Farfetch'd es un Pokémon de tipo normal/volador. Es conocido por portar un puerro que utiliza como arma."
+    },
+    {
+      "id": 84,
+      "nombre": "Doduo",
+      "imagen": "doduo.png",
+      "descripcion": "Doduo es un Pokémon de tipo normal/volador. Tiene dos cabezas que piensan y actúan independientemente."
+    },
+    {
+      "id": 85,
+      "nombre": "Dodrio",
+      "imagen": "dodrio.png",
+      "descripcion": "Dodrio es la evolución de Doduo. Tiene tres cabezas y es conocido por su velocidad en carrera."
+    },
+    {
+      "id": 86,
+      "nombre": "Seel",
+      "imagen": "seel.png",
+      "descripcion": "Seel es un Pokémon de tipo agua. Tiene un cuerpo similar al de una foca y es experto en nadar."
+    },
+    {
+      "id": 87,
+      "nombre": "Dewgong",
+      "imagen": "dewgong.png",
+      "descripcion": "Dewgong es la evolución de Seel. Tiene una piel gruesa y una cola aleta que le permite nadar a altas velocidades."
+    },
+    {
+      "id": 88,
+      "nombre": "Grimer",
+      "imagen": "grimer.png",
+      "descripcion": "Grimer es un Pokémon de tipo veneno. Tiene un cuerpo viscoso y puede fundirse con la suciedad y los desechos."
+    },
+    {
+      "id": 89,
+      "nombre": "Muk",
+      "imagen": "muk.png",
+      "descripcion": "Muk es la evolución de Grimer. Tiene una masa informe y puede liberar gases tóxicos de su cuerpo."
+    },
+    {
+      "id": 90,
+      "nombre": "Shellder",
+      "imagen": "shellder.png",
+      "descripcion": "Shellder es un Pokémon de tipo agua. Tiene una concha dura y afilada que utiliza para defenderse."
+    },
+    {
+      "id": 91,
+      "nombre": "Cloyster",
+      "imagen": "cloyster.png",
+      "descripcion": "Cloyster es la evolución de Shellder. Tiene una concha extremadamente resistente que lo protege de los ataques enemigos."
+    },
+    {
+      "id": 92,
+      "nombre": "Gastly",
+      "imagen": "gastly.png",
+      "descripcion": "Gastly es un Pokémon de tipo fantasma/veneno. Es conocido por su habilidad para aparecer y desaparecer a voluntad."
+    },
+    {
+      "id": 93,
+      "nombre": "Haunter",
+      "imagen": "haunter.png",
+      "descripcion": "Haunter es la evolución de Gastly. Puede atravesar paredes y disfruta asustando a los humanos."
+    },
+    {
+      "id": 94,
+      "nombre": "Gengar",
+      "imagen": "gengar.png",
+      "descripcion": "Gengar es la forma final de Gastly. Es un Pokémon sombrío que disfruta de jugar malas pasadas a los humanos."
+    },
+    {
+      "id": 95,
+      "nombre": "Onix",
+      "imagen": "onix.png",
+      "descripcion": "Onix es un Pokémon de tipo roca/tierra. Es una serpiente de roca gigante que se mueve a gran velocidad bajo tierra."
+    },
+    {
+      "id": 96,
+      "nombre": "Drowzee",
+      "imagen": "drowzee.png",
+      "descripcion": "Drowzee es un Pokémon de tipo psíquico. Tiene poderes hipnóticos que utiliza para controlar los sueños de otros."
+    },
+    {
+      "id": 97,
+      "nombre": "Hypno",
+      "imagen": "hypno.png",
+      "descripcion": "Hypno es la evolución de Drowzee. Es conocido por su habilidad para inducir un sueño profundo en sus oponentes."
+    },
+    {
+      "id": 98,
+      "nombre": "Krabby",
+      "imagen": "krabby.png",
+      "descripcion": "Krabby es un Pokémon de tipo agua. Tiene una pinza muy fuerte que utiliza en combate y para romper conchas."
+    },
+    {
+      "id": 99,
+      "nombre": "Kingler",
+      "imagen": "kingler.png",
+      "descripcion": "Kingler es la evolución de Krabby. Tiene una pinza gigante y es conocido por su fuerza en combate."
+    },
+    {
+      "id": 100,
+      "nombre": "Voltorb",
+      "imagen": "voltorb.png",
+      "descripcion": "Voltorb es un Pokémon de tipo eléctrico. Se asemeja a una Pokébola y puede explotar en cualquier momento."
+    },
+    {
+      "id": 101,
+      "nombre": "Electrode",
+      "imagen": "electrode.png",
+      "descripcion": "Electrode es la evolución de Voltorb. Es aún más propenso a explotar y puede rodar a altas velocidades."
+    },
+    {
+      "id": 102,
+      "nombre": "Exeggcute",
+      "imagen": "exeggcute.png",
+      "descripcion": "Exeggcute es un Pokémon de tipo planta/psíquico. Está compuesto por varios huevos que se comunican telepáticamente."
+    },
+    {
+      "id": 103,
+      "nombre": "Exeggutor",
+      "imagen": "exeggutor.png",
+      "descripcion": "Exeggutor es la evolución de Exeggcute. Tiene un cuello largo y está compuesto por varios huevos que trabajan en conjunto."
+    },
+    {
+      "id": 104,
+      "nombre": "Cubone",
+      "imagen": "cubone.png",
+      "descripcion": "Cubone es un Pokémon de tipo tierra. Lleva una calavera en la cabeza que se dice que pertenece a su madre fallecida."
+    },
+    {
+      "id": 105,
+      "nombre": "Marowak",
+      "imagen": "marowak.png",
+      "descripcion": "Marowak es la evolución de Cubone. Utiliza un hueso como arma y es conocido por su determinación en combate."
+    },
+    {
+      "id": 106,
+      "nombre": "Hitmonlee",
+      "imagen": "hitmonlee.png",
+      "descripcion": "Hitmonlee es una de las formas finales de Tyrogue. Es conocido por sus potentes patadas y su gracia en el combate."
+    },
+    {
+      "id": 107,
+      "nombre": "Hitmonchan",
+      "imagen": "hitmonchan.png",
+      "descripcion": "Hitmonchan es una de las formas finales de Tyrogue. Es conocido por su habilidad para lanzar golpes de gran precisión."
+    },
+    {
+      "id": 108,
+      "nombre": "Lickitung",
+      "imagen": "lickitung.png",
+      "descripcion": "Lickitung es un Pokémon de tipo normal. Tiene una lengua larga y pegajosa que utiliza para atrapar presas."
+    },
+    {
+      "id": 109,
+      "nombre": "Koffing",
+      "imagen": "koffing.png",
+      "descripcion": "Koffing es un Pokémon de tipo veneno. Tiene gases tóxicos en su interior que puede liberar en combate."
+    },
+    {
+      "id": 110,
+      "nombre": "Weezing",
+      "imagen": "weezing.png",
+      "descripcion": "Weezing es la evolución de Koffing. Tiene dos cabezas y puede liberar gases venenosos en gran cantidad."
+    },
+    {
+      "id": 111,
+      "nombre": "Rhyhorn",
+      "imagen": "rhyhorn.png",
+      "descripcion": "Rhyhorn es un Pokémon de tipo tierra/roca. Tiene una piel gruesa y es conocido por su resistencia en batalla."
+    },
+    {
+      "id": 112,
+      "nombre": "Rhydon",
+      "imagen": "rhydon.png",
+      "descripcion": "Rhydon es la evolución de Rhyhorn. Tiene un cuerno poderoso y es uno de los Pokémon más fuertes en términos de resistencia física."
+    },
+    {
+      "id": 113,
+      "nombre": "Chansey",
+      "imagen": "chansey.png",
+      "descripcion": "Chansey es un Pokémon de tipo normal. Es conocido por su gran corazón y su habilidad para curar a otros."
+    },
+    {
+      "id": 114,
+      "nombre": "Tangela",
+      "imagen": "tangela.png",
+      "descripcion": "Tangela es un Pokémon de tipo planta. Tiene largas enredaderas que utiliza para atrapar a sus presas."
+    },
+    {
+      "id": 115,
+      "nombre": "Kangaskhan",
+      "imagen": "kangaskhan.png",
+      "descripcion": "Kangaskhan es un Pokémon de tipo normal. Es conocido por su instinto maternal y protegerá a su cría en todo momento."
+    },
+    {
+      "id": 116,
+      "nombre": "Horsea",
+      "imagen": "horsea.png",
+      "descripcion": "Horsea es un Pokémon de tipo agua. Tiene una aleta en la espalda que le permite nadar a altas velocidades."
+    },
+    {
+      "id": 117,
+      "nombre": "Seadra",
+      "imagen": "seadra.png",
+      "descripcion": "Seadra es la evolución de Horsea. Tiene aletas más grandes y afiladas, lo que le permite nadar con mayor agilidad."
+    },
+    {
+      "id": 118,
+      "nombre": "Goldeen",
+      "imagen": "goldeen.png",
+      "descripcion": "Goldeen es un Pokémon de tipo agua. Tiene una aleta dorsal que brilla con colores vivos bajo el agua."
+    },
+    {
+      "id": 119,
+      "nombre": "Seaking",
+      "imagen": "seaking.png",
+      "descripcion": "Seaking es la evolución de Goldeen. Tiene un cuerno poderoso que utiliza en combate y para abrirse camino a través del agua."
+    },
+    {
+      "id": 120,
+      "nombre": "Staryu",
+      "imagen": "staryu.png",
+      "descripcion": "Staryu es un Pokémon de tipo agua. Tiene una gema roja en el centro de su cuerpo que le permite regenerarse."
+    },
+    {
+      "id": 121,
+      "nombre": "Starmie",
+      "imagen": "starmie.png",
+      "descripcion": "Starmie es la evolución de Staryu. Tiene gemas adicionales en sus brazos y es conocido por su velocidad en el agua."
+    },
+    {
+      "id": 122,
+      "nombre": "Mr. Mime",
+      "imagen": "mr_mime.png",
+      "descripcion": "Mr. Mime es un Pokémon de tipo hada/psíquico. Tiene habilidades de mimetismo y puede crear barreras psíquicas."
+    },
+    {
+      "id": 123,
+      "nombre": "Scyther",
+      "imagen": "scyther.png",
+      "descripcion": "Scyther es un Pokémon de tipo bicho/volador. Tiene cuchillas afiladas en sus brazos y es un ágil combatiente."
+    },
+    {
+      "id": 124,
+      "nombre": "Jynx",
+      "imagen": "jynx.png",
+      "descripcion": "Jynx es un Pokémon de tipo hielo/psíquico. Tiene un baile hipnótico que puede dejar a sus oponentes inmóviles."
+    },
+    {
+      "id": 125,
+      "nombre": "Electabuzz",
+      "imagen": "electabuzz.png",
+      "descripcion": "Electabuzz es un Pokémon de tipo eléctrico. Tiene una piel amarilla y es conocido por generar descargas eléctricas."
+    },
+    {
+      "id": 126,
+      "nombre": "Magmar",
+      "imagen": "magmar.png",
+      "descripcion": "Magmar es un Pokémon de tipo fuego. Tiene una llama en la cabeza y es conocido por su aliento ígneo."
+    },
+    {
+      "id": 127,
+      "nombre": "Pinsir",
+      "imagen": "pinsir.png",
+      "descripcion": "Pinsir es un Pokémon de tipo bicho. Tiene una pinza gigante que utiliza en combate y para sujetarse a las ramas."
+    },
+    {
+      "id": 128,
+      "nombre": "Tauros",
+      "imagen": "tauros.png",
+      "descripcion": "Tauros es un Pokémon de tipo normal. Es conocido por su temperamento agresivo y su habilidad para embestir."
+    },
+    {
+      "id": 129,
+      "nombre": "Magikarp",
+      "imagen": "magikarp.png",
+      "descripcion": "Magikarp es un Pokémon de tipo agua. Es débil en combate, pero puede evolucionar en un poderoso Gyarados."
+    },
+    {
+      "id": 130,
+      "nombre": "Gyarados",
+      "imagen": "gyarados.png",
+      "descripcion": "Gyarados es la evolución de Magikarp. Es un dragón de agua temible que causa destrucción con sus ataques."
+    },
+    {
+      "id": 131,
+      "nombre": "Lapras",
+      "imagen": "lapras.png",
+      "descripcion": "Lapras es un Pokémon de tipo agua/hielo. Tiene una concha en su espalda y es conocido por su gentileza hacia los humanos."
+    },
+    {
+      "id": 132,
+      "nombre": "Ditto",
+      "imagen": "ditto.png",
+      "descripcion": "Ditto es un Pokémon de tipo normal. Tiene la habilidad única de transformarse en cualquier otro Pokémon."
+    },
+    {
+      "id": 133,
+      "nombre": "Eevee",
+      "imagen": "eevee.png",
+      "descripcion": "Eevee es un Pokémon de tipo normal. Tiene la capacidad de evolucionar en varias formas diferentes."
+    },
+    {
+      "id": 134,
+      "nombre": "Vaporeon",
+      "imagen": "vaporeon.png",
+      "descripcion": "Vaporeon es una de las evoluciones de Eevee. Tiene una piel acuática y es un nadador experto."
+    },
+    {
+      "id": 135,
+      "nombre": "Jolteon",
+      "imagen": "jolteon.png",
+      "descripcion": "Jolteon es una de las evoluciones de Eevee. Tiene una piel llena de electricidad y es conocido por su velocidad."
+    },
+    {
+      "id": 136,
+      "nombre": "Flareon",
+      "imagen": "flareon.png",
+      "descripcion": "Flareon es una de las evoluciones de Eevee. Tiene una melena en llamas y es conocido por su poderoso aliento ígneo."
+    },
+    {
+      "id": 137,
+      "nombre": "Porygon",
+      "imagen": "porygon.png",
+      "descripcion": "Porygon es un Pokémon de tipo normal. Está compuesto enteramente de datos programados y puede moverse a través de la red."
+    },
+    {
+      "id": 138,
+      "nombre": "Omanyte",
+      "imagen": "omanyte.png",
+      "descripcion": "Omanyte es un Pokémon de tipo roca/agua. Es un fósil prehistórico que ha sido regenerado."
+    },
+    {
+      "id": 139,
+      "nombre": "Omastar",
+      "imagen": "omastar.png",
+      "descripcion": "Omastar es la evolución de Omanyte. Tiene una concha resistente y es un nadador experto."
+    },
+    {
+      "id": 140,
+      "nombre": "Kabuto",
+      "imagen": "kabuto.png",
+      "descripcion": "Kabuto es un Pokémon de tipo roca/agua. Es un fósil prehistórico que ha sido regenerado."
+    },
+    {
+      "id": 141,
+      "nombre": "Kabutops",
+      "imagen": "kabutops.png",
+      "descripcion": "Kabutops es la evolución de Kabuto. Tiene cuchillas afiladas en sus brazos y es un hábil cazador."
+    },
+    {
+      "id": 142,
+      "nombre": "Aerodactyl",
+      "imagen": "aerodactyl.png",
+      "descripcion": "Aerodactyl es un Pokémon de tipo roca/volador. Es un fósil prehistórico que ha sido regenerado."
+    },
+    {
+      "id": 143,
+      "nombre": "Snorlax",
+      "imagen": "snorlax.png",
+      "descripcion": "Snorlax es un Pokémon de tipo normal. Es conocido por su gran apetito y su habilidad para bloquear caminos."
+    },
+    {
+      "id": 144,
+      "nombre": "Articuno",
+      "imagen": "articuno.png",
+      "descripcion": "Articuno es un Pokémon legendario de tipo hielo/volador. Puede crear tormentas de hielo con aleteos de sus alas."
+    },
+    {
+      "id": 145,
+      "nombre": "Zapdos",
+      "imagen": "zapdos.png",
+      "descripcion": "Zapdos es un Pokémon legendario de tipo eléctrico/volador. Puede lanzar rayos y controlar la electricidad."
+    },
+    {
+      "id": 146,
+      "nombre": "Moltres",
+      "imagen": "moltres.png",
+      "descripcion": "Moltres es un Pokémon legendario de tipo fuego/volador. Puede generar llamas y controlar el fuego."
+    },
+    {
+      "id": 147,
+      "nombre": "Dratini",
+      "imagen": "dratini.png",
+      "descripcion": "Tiene un cuerpo largo y es conocido por su potencial para evolucionar en un poderoso dragón."
+    },
+    {
+      "id": 148,
+      "nombre": "Dragonair",
+      "imagen": "dragonair.png",
+      "descripcion": "Dragonair es la evolución de Dratini. Tiene un cuerpo elegante y es conocido por su gracia en el vuelo."
+    },
+    {
+      "id": 149,
+      "nombre": "Dragonite",
+      "imagen": "dragonite.png",
+      "descripcion": "Dragonite es la forma final de Dratini. Es un poderoso dragón capaz de volar a grandes velocidades."
+    },
+    {
+      "id": 150,
+      "nombre": "Mewtwo",
+      "imagen": "mewtwo.png",
+      "descripcion": "Mewtwo es un Pokémon legendario de tipo psíquico. Tiene habilidades psíquicas extremadamente poderosas."
+    }
+  ]
+  

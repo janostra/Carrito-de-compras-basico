@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favoritos Pokémon</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+</head>
+<body style="background-color: blue;">
+
+    <header class="encabezado">
+        <h1>Mis Pokémon Favoritos</h1>
+        <button id="irACompras">Compras</button>
+        <button id="irACarrito">Carrito</button>
+        <img src="../assets/images/pokemon/RED.png" alt="Red pokemon RFVH">
+    </header>
+
+    <div class="contenedor">
+
+        <div class="lista" id="lista-favoritos">
+            <ul></ul><!-- Aquí se cargarán los favoritos desde el localStorage -->
+        </div>
+
+    </div>
+
+    <footer class="pie-de-pagina">
+        <img src="../assets/images/pokemon/BLUE.png" alt="Blue pokemon RFVH">
+        <h4>Todos los derechos reservados</h4>
+    </footer>
+
+    <script src="../favoritos.js"></script>
+</body>
+</html>

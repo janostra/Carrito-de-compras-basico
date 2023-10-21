@@ -1,0 +1,118 @@
+.contenedor {
+    min-height: 200px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.productos {
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Añade un espacio entre las filas */
+}
+
+.producto {
+    background-color: orange;
+    max-width: 180px; /* Ancho de cada tarjeta (calculado para 6 por fila) */
+    height: 400px;
+    margin: 5px;
+    padding: 5px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box; /* Asegura que el borde y el relleno no aumenten el tamaño total */
+}
+
+.producto img {
+    max-width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.descrip {
+    background-color: orange;
+    margin: auto;
+    height: 110px; /* Aquí puedes ajustar la altura según tus preferencias */
+}
+
+.btnfavorito {
+    background-color: yellow;
+    margin: 5px
+}
+
+.btncarrito {
+    background-color: green;
+    margin: 5px
+}
+
+.producto:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al 105% */
+    transition: transform 0.3s; /* Agrega una transición para un efecto suave */
+}
+
+#comprar {
+    padding: 10px;
+    margin: 10px;
+}
+
+.encabezado {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    border-bottom: 3px solid black;
+    margin-bottom: 30px;
+}
+
+.encabezado h1 {
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: 50px;
+    color: yellow;
+    padding: 0px 0px 10px 10px;
+}
+
+.pie-de-pagina {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    border-top: 3px solid black;
+}
+
+.encabezado img, .pie-de-pagina img {
+    max-width: 100%;
+}
+
+.encabezado h1, .pie-de-pagina h4 {
+    margin: 0;
+}
+
+.lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    justify-items: center;
+}
+
+.tarjeta {
+    background-color: orange;
+    width: 180px; /* Ancho de cada tarjeta (calculado para 6 por fila) */
+    height: 250px;
+    margin: 5px;
+    padding: 5px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box; /* Asegura que el borde y el relleno no aumenten el tamaño total */
+}
+
+.pie-de-pagina h4 {
+    padding: 10px;
+}
