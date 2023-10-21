@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const listaCarrito = document.getElementById('lista-carrito');
     let carrito = JSON.parse(sessionStorage.getItem('carrito')) || [];
     const total = document.getElementById('total');
+    const comprar = document.getElementById('comprar');
 
     document.getElementById('irAFavoritos').addEventListener('click', function() {
         window.location.href = './favoritos.html';
@@ -66,6 +67,15 @@ document.addEventListener('DOMContentLoaded', function() {
         total.textContent = `Total: $${totalCarrito}`;
         sessionStorage.setItem('carrito', JSON.stringify(carrito));
     }
+
+    comprar.addEventListener('click', function() {
+        Swal.fire({
+            icon: 'info',
+            title: '¡Compra realizada!',
+            text: '¡Gracias por tu compra!',
+            confirmButtonText: 'Aceptar'
+        });
+    });
 
     actualizarCarrito();
 

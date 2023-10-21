@@ -87,6 +87,12 @@ document.addEventListener('DOMContentLoaded', async function() {
         }
     
         sessionStorage.setItem('carrito', JSON.stringify(carrito));
+
+        Swal.fire({
+            icon: 'success',
+            title: '¡Añadido al carrito!',
+            text: `${producto.nombre} se ha añadido al carrito.`,
+        });
     }
 
     function agregarAFavoritos(producto) {
