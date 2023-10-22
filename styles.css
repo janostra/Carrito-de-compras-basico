@@ -1,3 +1,9 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 .contenedor {
     min-height: 200px;
     max-width: 100%;
@@ -78,6 +84,7 @@
     font-size: 50px;
     color: yellow;
     padding: 0px 0px 10px 10px;
+    -webkit-text-stroke: 2px #000;
 }
 
 .pie-de-pagina {
